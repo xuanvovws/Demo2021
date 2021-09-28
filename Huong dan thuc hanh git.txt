@@ -40,10 +40,15 @@ git remote set-url origin https://github.com/your/repository
 
 
 Tham khảo
-Hướng dẫn sử dụng Git
+Hướng dẫn sử dụng Git cơ bản
 https://www.youtube.com/watch?v=tnrF98P9u7Q&list=PLWSyzuXbR77D_jXBaXmz8vKpYyt-k0YMC
 https://viblo.asia/p/cuc-soc-nhung-cau-lenh-git-nam-long-nhu-rap-cua-anh-binz-WAyK8DPNKxX
 
+Hướng dẫn sử dụng Git nâng cao
+https://www.youtube.com/watch?v=O5uT6p6VWjY
+
+Welcome to Learn Git Branching
+learngitbranching.js.org
 
 
 
