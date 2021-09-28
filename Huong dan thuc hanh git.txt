@@ -1,0 +1,43 @@
+Introduction GIT GIT-BASH
+Hệ thống quản lý phiên bản phân tán
+
+Download & Install
+https://git-scm.com/download
+
+Register a GitHub.com account
+Tạo repository mới
+
+Trên local tạo 1 folder, vào folder đó nhấn chuột phải chạy Git Bash
+Cấu hình tài khoản GitHub trên máy (chỉ làm 1 lần duy nhất)
+git config --global user.email <your email>
+
+Khởi tạo 
+	git init
+Trỏ về host chứa project, ở đây là server GitHub
+	git remote add origin <URL của repository>
+Thêm file thay đổi trong project
+	git add <ten file>
+	git add <ten folder>
+Thêm tất cả
+	git add *
+	hoặc git add -a
+Thêm commit và ghi chú 
+	git commit -m 'ghi chú sự thay đổi'
+Đẩy dữ liệu từ local lên host lần đầu 
+	git push add origin master
+	hoặc git push -u origin master
+Đẩy dữ liệu từ local lên host các lần sau
+	git push
+Cập nhật dữ liệu mới nhất từ host về local
+	git pull
+Kiểm tra các file đã thay đổi
+	git status
+For other user:
+	git clone <URL của repository>
+
+
+
+Tham khảo
+https://viblo.asia/p/cuc-soc-nhung-cau-lenh-git-nam-long-nhu-rap-cua-anh-binz-WAyK8DPNKxX
+
+
