@@ -20,7 +20,8 @@ Thêm file thay đổi trong project
 	git add <ten folder>
 Thêm tất cả
 	git add *
-	hoặc git add -a
+	hoặc git add -A
+	hoac git add --all
 Thêm commit và ghi chú 
 	git commit -m 'ghi chú sự thay đổi'
 Đẩy dữ liệu từ local lên host lần đầu 
@@ -31,13 +32,18 @@ Thêm commit và ghi chú
 Cập nhật dữ liệu mới nhất từ host về local
 	git pull
 Kiểm tra các file đã thay đổi
-	git status
+	git statusremote 
 For other user:
 	git clone <URL của repository>
 
+git remote set-url origin https://github.com/your/repository
 
 
 Tham khảo
+Hướng dẫn sử dụng Git
+https://www.youtube.com/watch?v=tnrF98P9u7Q&list=PLWSyzuXbR77D_jXBaXmz8vKpYyt-k0YMC
 https://viblo.asia/p/cuc-soc-nhung-cau-lenh-git-nam-long-nhu-rap-cua-anh-binz-WAyK8DPNKxX
+
+
 
 
